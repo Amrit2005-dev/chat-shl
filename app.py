@@ -406,7 +406,7 @@ Candidate Assessments Available:
                 messages.append({"role": msg.role, "content": msg.content})
                 
             completion = client.chat.completions.create(
-                model="llama-3.1-8b-instant",
+                model="llama-3.3-70b-versatile",
                 messages=messages,
                 response_format={"type": "json_object"},
                 temperature=0.0
