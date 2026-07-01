@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+chroma_db/
+verify_results.txt
+assignment_text.txt
